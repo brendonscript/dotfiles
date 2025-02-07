@@ -1,0 +1,14 @@
+{
+	"bootstrapped": true,
+	"installed_packages":
+	[
+		"Close All without Confirmation",
+		"MarkdownEditing",
+		"Package Control",
+		"PowerShell",
+		"Pretty JSON",
+	],
+	"in_process_packages":
+	[
+	],
+}

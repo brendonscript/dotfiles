@@ -1,0 +1,286 @@
+""" Settings from https://gist.github.com/dewaka/ef947e52767bf453eaf77c852051eb7e ------------------------------
+
+""" Map leader to space ---------------------
+let mapleader=" "
+
+""" Plugins  --------------------------------
+" Plug 'easymotion/vim-easymotion'
+Plug 'preservim/nerdtree'
+Plug 'tpope/vim-surround'
+Plug 'terryma/vim-multiple-cursors'
+Plug 'tpope/vim-commentary'
+Plug 'vim-scripts/ReplaceWithRegister'
+Plug 'vim-scripts/argtextobj.vim'
+Plug 'tommcdo/vim-exchange'
+Plug 'kana/vim-textobj-entire'
+Plug 'machakann/vim-highlightedyank'
+Plug 'dbakker/vim-paragraph-motion'
+Plug 'michaeljsmith/vim-indent-object'
+packadd matchit
+
+""" Plugin settings -------------------------
+let g:argtextobj_pairs="[:],(:),<:>"
+let g:highlightedyank_highlight_duration = "1000"
+set easymotion
+set which-key
+
+let g:WhichKey_ShowVimActions = "true"
+let g:WhichKey_DefaultDelay = 300
+let g:WhichKey_FontSize = 16
+let g:WhichKey_ShowTypedSequence = "false"
+let g:WhichKey_ProcessUnknownMappings = "false"
+let g:EasyMotion_do_mapping = 1 " Disable default mappings
+let g:EasyMotion_keys = 'hklyuiopnmqwertzxcvbasdjf'
+let g:EasyMotion_smartcase = 1
+
+""" Common settings -------------------------
+set showmode
+set so=2
+set incsearch
+" set nu
+" set notimeout
+set clipboard+=unnamed
+set clipboard+=ideaput
+" set clipboard=ideaput
+" set ignorecase
+set smartcase
+set relativenumber
+set timeoutlen=1000
+
+""" Idea specific settings ------------------
+set ideajoin
+set ideastatusicon=gray
+set idearefactormode=keep
+set ideamarks
+set visualbell
+""" Mappings --------------------------------
+imap jk <Esc>
+
+" nmap s <Plug>(easymotion-jumptoanywhere)
+map <F9> :nohl<cr>
+" map <F10> :source ~/.config/ideavim/ideavimrc<cr>
+" map \e :e ~/.config/ideavim/ideavimrc<cr>
+nmap <Leader><Leader> <Plug>(easymotion-prefix)
+map s <Plug>(easymotion-s)
+map L $
+map H ^
+
+" Use Q for formatting the current paragraph (or visual selection)
+vmap Q gq
+nmap Q gqap
+
+map g. <Action>(ShowIntentionActions)
+map gp <Action>(JumpToLastChange)
+
+" These create newlines like o and O but stay in normal mode
+" nmap zo o<Esc>k
+" nmap zO O<Esc>j
+
+vmap T <Action>(Refactorings.QuickListPopupAction)
+
+map zz zz
+map <C-=> <Action>(EditorIncreaseFontSize)
+map <C--> <Action>(EditorDecreaseFontSize)
+
+sethandler <c-j> a:vim
+sethandler <c-k> a:vim
+nmap <c-h> <c-w>h
+nmap <c-l> <c-w>l
+nmap <c-j> <c-w>j
+nmap <c-k> <c-w>k
+nmap <c-w>= <Action>(MaximizeEditorInSplit)
+
+
+imap <c-j> <Action>(EditorLookupDown)
+imap <c-k> <Action>(EditorLookupUp)
+
+map gza ys
+map gzc cs
+map gzd ds
+
+" Moving lines
+" nmap [k <Action>(MoveLineUp)
+" nmap ]j <Action>(MoveLineDown)
+vnoremap J :m'>+<CR>gv=gv
+vnoremap K :m-2<CR>gv=gv
+
+map ]e <Action>(GotoNextError)
+map [e <Action>(GotoPreviousError)
+
+map gC <Action>(GotoClass)
+map gi <Action>(GotoImplementation)
+map gd <Action>(GotoDeclaration)
+map gB <Action>(Back)
+map gF <Action>(Forward)
+map gl <Action>(ShowErrorDescription)
+map gr <Action>(FindUsages)
+" Camel Case Words
+map gw [w
+map ge ]w
+map gb [b
+
+map mc <A-n>
+map mx <A-x>
+map mp <A-p>
+
+nmap <leader>aa <Action>(angular.QuickSwitch)
+map == <Action>(ReformatWithPrettierAction)
+
+" <Leader>f{char} to move to {char}
+" map  <Leader>f <Plug>(easymotion-bd-f)
+" nmap <Leader>f <Plug>(easymotion-overwin-f)
+
+" s{char}{char} to move to {char}{char}
+" nmap s <Plug>(easymotion-overwin-f2)
+
+" Move to line
+" map <Leader>L <Plug>(easymotion-bd-jk)
+" nmap <Leader>L <Plug>(easymotion-overwin-line)
+"
+" " Move to word
+" map  <Leader>w <Plug>(easymotion-bd-w)
+" nmap <Leader>w <Plug>(easymotion-overwin-w)
+
+
+" map J ":move '>+1<CR>gv-gv"
+" map K ":move '<-2<CR>gv-gv"
+
+map ga <Action>(ShowIntentionActions)
+map M %
+nmap K <Action>(QuickJavaDoc)
+
+""" Leader Mappings --------------------------------
+
+" Base
+" map <leader><leader> <Action>(GotoFile)
+map <leader>; <Action>(GotoAction)
+map <leader>= <Action>(ReformatWithPrettierAction)
+map <leader>j <Action>(AceAction)
+map <leader>/ <Action>(SearchEverywhere)
+map <leader>` <Action>(ActivateTerminalToolWindow)
+map <leader>~ <Action>(Terminal.OpenInTerminal)
+map <leader>R <Action>(GotoRelated)
+map <leader>H <Action>(CallHierarchy)
+map <leader>B <Action>(ShowNavBar)
+map <leader>h <Action>(HideAllWindows)
+map <leader>e :NERDTree<cr>
+map <leader>E <Action>(HideSideWindows)
+map <leader>S <Action>(HideActiveWindow)
+map <leader>z <Action>(ToggleZenMode)
+map <leader>Z <Action>(ToggleDistractionFreeMode)
+
+" Search
+map <leader>se <Action>(SearchEverywhere)
+map <leader>sS <Action>(FindInPath)
+map <leader>ss <Action>(GotoSymbol)
+map <leader>sa <Action>(GotoAction)
+map <leader>sf <Action>(GotoFile)
+
+" Windows
+map <leader>wf <Action>(HideAllWindows)
+map <leader>ws <Action>(SplitHorizontally)
+map <leader>wv <Action>(SplitVertically)
+map <leader>wc <Action>(Unsplit)
+map <leader>wC <Action>(UnsplitAll)
+map <leader>wo <Action>(OpenEditorInOppositeTabGroup)
+map <leader>wm <Action>(MoveEditorToOppositeTabGroup)
+map <leader>ww <Action>(EditSourceInNewWindow)
+map <leader>wp <Action>(JumpToLastWindow)
+map <leader>wd <c-w>c
+map <leader>wj <c-w>j
+map <leader>wk <c-w>k
+map <leader>wl <c-w>l
+map <leader>wh <c-w>h
+
+" Buffers
+map <leader>bp <Action>(Back)
+map <leader>bn <Action>(Forward)
+map <leader>br <Action>(RecentLocations)
+map <leader>bP <Action>(PinActiveTabToggle)
+map <Leader>bd <Action>(CloseContent)
+map <Leader>bD <Action>(CloseAllEditors)
+map <leader>bb <Action>(RecentFiles)
+map <leader>bB <Action>(RecentChangedFiles)
+map <leader>bs <Action>(SaveDocument)
+map <leader>bS <Action>(SaveAll)
+map <leader>bo <Action>(Switcher)
+map <leader>, <Action>(Switcher)
+
+" Files
+map <leader>fr <Action>(RecentFiles)
+map <leader>fR <Action>(RecentChangedFiles)
+map <leader>ff <Action>(GotoFile)
+map <leader>fp <Action>(FileStructurePopup)
+map <leader>fs <Action>(SaveDocument)
+map <leader>fS <Action>(SaveAll)
+map <leader>fQ <Action>(Exit)
+map <leader>fF <Action>(SearchEverywhere)
+
+" Code
+map <leader>cF <Action>(FindUsages)
+map <leader>cu <Action>(OptimizeImports)
+map <leader>cC <Action>(CallHierarchy)
+map <leader>cf <Action>(GotoFile)
+map <leader>cc <Action>(GotoClass)
+map <leader>cs <Action>(GotoSymbol)
+map <leader>cm <Action>(ToggleBookmark)
+map <leader>c; <Action>(FileStructurePopup)
+map <leader>cM <Action>(ActivateStructureToolWindow)
+map <leader>cd <Action>(ShowErrorDescription)
+map <leader>ci <Action>(GotoImplementation)
+map <leader>cU <Action>(GotoSuperMethod)
+map <leader>cI <Action>(SelectIn)
+map <leader>ce <Action>(RecentFiles)
+map <leader>ca <Action>(RecentChangedFiles)
+map <leader>ct <Action>(GotoTest)
+map <leader>cp <Action>(JumpToLastWindow)
+map <leader>cb <Action>(ShowBookmarks)
+
+map <leader>ma <Action>(ngxQuickSwitch.QuickSwitch)
+
+" Git
+map <leader>gb <Action>(Git.Branches)
+map <leader>gp <Action>(Git.Pull)
+map <leader>gu <Action>(Git.Push)
+map <leader>gr <Action>(Git.Rebase)
+map <leader>gm <Action>(Git.Merge)
+map <leader>gy <Action>(Vcs.Show.Local.Changes)
+map <leader>gq <Action>(Vcs.QuickListPopupAction)
+map <leader>ga <Action>(Annotate)
+map <leader>gl <Action>(Vcs.Show.Log)
+map <leader>gd <Action>(Compare.LastVersion)
+map <leader>gR <Action>(Git.ResolveConflicts)
+map <leader>gh <Action>(LocalHistory.ShowHistory)
+map <leader>gg <Action>(ActivateVersionControlToolWindow)
+map <leader>gs <Action>(ActivateCommitToolWindow)
+
+" Errors
+map <leader>x <Action>(GotoNextError)
+map <leader>X <Action>(GotoPreviousError)
+
+" Refactorings
+map <leader>rm <Action>(ExtractMethod)
+map <leader>rn <Action>(RenameElement)
+map <leader>rg <Action>(Generate)
+map <leader>rI <Action>(OptimizeImports)
+map <leader>rc <Action>(InspectCode)
+map <leader>rr <Action>(Replace)
+
+" Building, Running and Debugging
+map <leader>dr <Action>(Run)
+map <leader>dR <Action>(RunAnything)
+map <leader>dd <Action>(Debug)
+map <leader>dD <Action>(ChooseDebugConfiguration)
+map <leader>db <Action>(ToggleLineBreakpoint)
+
+""" WhichKey
+let g:WhichKeyDesc_windows = "<Space>w Windows"
+let g:WhichKeyDesc_files = "<Space>f Files"
+let g:WhichKeyDesc_buffers = "<Space>b Buffers"
+let g:WhichKeyDesc_debugging = "<Space>d Debugging"
+let g:WhichKeyDesc_refactoring = "<Space>r Refactor"
+let g:WhichKeyDesc_git = "<Space>g Git"
+let g:WhichKeyDesc_code = "<Space>m Code"
+let g:WhichKeyDesc_search = "<Space>s Search"
+
+

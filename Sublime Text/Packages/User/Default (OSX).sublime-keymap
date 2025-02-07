@@ -1,0 +1,27 @@
+[
+	{
+	    "keys": ["j", "k"],
+	    "command": "exit_insert_mode",
+	    "context":
+	    [
+	        { "key": "setting.command_mode", "operand": false },
+	        { "key": "setting.is_widget", "operand": false }
+	    ]
+	},
+	{ "keys": ["L"], "command": "set_motion", "args": {
+		"motion": "vi_move_to_hard_eol",
+		"motion_args": {"repeat": 1, "extend": true},
+		"inclusive": true,
+		"clip_to_line": true },
+		"context": [{"key": "setting.command_mode"}]
+	},
+	{ "keys": ["H"], "command": "set_motion", "args": {
+		"motion": "vi_move_to_first_non_white_space_character",
+		"motion_args": {"extend": true },
+		"clip_to_line": true },
+		"context": [{"key": "setting.command_mode"}]
+	},
+	{ "keys": ["ctrl+w", "x"], "command": "close_all_without_confirm",
+		"context": [{"key": "setting.vintage_ctrl_keys"}, {"key": "setting.command_mode"}]
+	}
+]

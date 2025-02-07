@@ -1,0 +1,10 @@
+Host github.com
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/personal_rsa
+  IdentitiesOnly yes
+Host ssh.dev.azure.com
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/work_rsa
+  IdentitiesOnly yes

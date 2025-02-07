@@ -1,0 +1,374 @@
+{
+	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
+	"CreationDate" : "2024-08-01T13:24:18.767-00:00",
+	"Sources" : 
+	[
+		{
+			"Packages" : 
+			[
+				{
+					"PackageIdentifier" : "MullvadVPN.MullvadVPN"
+				},
+				{
+					"PackageIdentifier" : "7zip.7zip"
+				},
+				{
+					"PackageIdentifier" : "AutoHotkey.AutoHotkey"
+				},
+				{
+					"PackageIdentifier" : "BinaryFortress.DisplayFusion"
+				},
+				{
+					"PackageIdentifier" : "Docker.DockerDesktop"
+				},
+				{
+					"PackageIdentifier" : "Git.Git"
+				},
+				{
+					"PackageIdentifier" : "REALiX.HWiNFO"
+				},
+				{
+					"PackageIdentifier" : "rcmaehl.MSEdgeRedirect"
+				},
+				{
+					"PackageIdentifier" : "Mozilla.Firefox"
+				},
+				{
+					"PackageIdentifier" : "PearlAbyss.BlackDesert"
+				},
+				{
+					"PackageIdentifier" : "SteelSeries.GG"
+				},
+				{
+					"PackageIdentifier" : "LizardByte.Sunshine"
+				},
+				{
+					"PackageIdentifier" : "VideoLAN.VLC"
+				},
+				{
+					"PackageIdentifier" : "winaero.tweaker"
+				},
+				{
+					"PackageIdentifier" : "NordSecurity.NordVPN"
+				},
+				{
+					"PackageIdentifier" : "GitHub.cli"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2010.x64"
+				},
+				{
+					"PackageIdentifier" : "StephanDilly.gitui"
+				},
+				{
+					"PackageIdentifier" : "OpenJS.NodeJS.LTS"
+				},
+				{
+					"PackageIdentifier" : "KeePassXCTeam.KeePassXC"
+				},
+				{
+					"PackageIdentifier" : "Logitech.GHUB"
+				},
+				{
+					"PackageIdentifier" : "OlegShparber.Zeal"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2008.x64"
+				},
+				{
+					"PackageIdentifier" : "PDFgear.PDFgear"
+				},
+				{
+					"PackageIdentifier" : "Logitech.OptionsPlus"
+				},
+				{
+					"PackageIdentifier" : "Elgato.StreamDeck"
+				},
+				{
+					"PackageIdentifier" : "EclipseAdoptium.Temurin.21.JDK"
+				},
+				{
+					"PackageIdentifier" : "PlayStation.DualSenseFWUpdater"
+				},
+				{
+					"PackageIdentifier" : "ViGEm.ViGEmBus"
+				},
+				{
+					"PackageIdentifier" : "Corsair.iCUE.5"
+				},
+				{
+					"PackageIdentifier" : "Nvidia.PhysX"
+				},
+				{
+					"PackageIdentifier" : "wez.wezterm"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.OpenJDK.17"
+				},
+				{
+					"PackageIdentifier" : "nomacs.nomacs"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.PowerShell"
+				},
+				{
+					"PackageIdentifier" : "Symless.Synergy"
+				},
+				{
+					"PackageIdentifier" : "TeamSpeakSystems.TeamSpeakClient.Beta"
+				},
+				{
+					"PackageIdentifier" : "Klocman.BulkCrapUninstaller"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VisualStudio.2019.BuildTools"
+				},
+				{
+					"PackageIdentifier" : "Adobe.CreativeCloud"
+				},
+				{
+					"PackageIdentifier" : "EQAditu.AdvancedCombatTracker"
+				},
+				{
+					"PackageIdentifier" : "Guru3D.Afterburner"
+				},
+				{
+					"PackageIdentifier" : "Dropbox.Dropbox"
+				},
+				{
+					"PackageIdentifier" : "Google.Chrome.EXE"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.Edge"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime"
+				},
+				{
+					"PackageIdentifier" : "BitSum.ProcessLasso"
+				},
+				{
+					"PackageIdentifier" : "Guru3D.RTSS"
+				},
+				{
+					"PackageIdentifier" : "Valve.Steam"
+				},
+				{
+					"PackageIdentifier" : "Ubisoft.Connect"
+				},
+				{
+					"PackageIdentifier" : "Yubico.YubikeyManager"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2013.x64"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.SDK.8"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.PowerToys"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.Runtime.7"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.5"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2012.x86"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.7"
+				},
+				{
+					"PackageIdentifier" : "Python.Launcher"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.WindowsSDK.10.0.19041"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.AspNetCore.7"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.8"
+				},
+				{
+					"PackageIdentifier" : "Rhinode.TradingPaints"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2008.x86"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2013.x86"
+				},
+				{
+					"PackageIdentifier" : "EpicGames.EpicGamesLauncher"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.XNARedist"
+				},
+				{
+					"PackageIdentifier" : "PlayStation.PSRemotePlay"
+				},
+				{
+					"PackageIdentifier" : "WinFsp.WinFsp"
+				},
+				{
+					"PackageIdentifier" : "Google.ChromeRemoteDesktopHost"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2010.x86"
+				},
+				{
+					"PackageIdentifier" : "Cryptomator.Cryptomator"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2012.x64"
+				},
+				{
+					"PackageIdentifier" : "ElectronicArts.EADesktop"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.HostingBundle.7"
+				},
+				{
+					"PackageIdentifier" : "Readdle.Spark"
+				},
+				{
+					"PackageIdentifier" : "Olivia.VIA"
+				},
+				{
+					"PackageIdentifier" : "Anysphere.Cursor"
+				},
+				{
+					"PackageIdentifier" : "Wago.Addons"
+				},
+				{
+					"PackageIdentifier" : "AgileBits.1Password.CLI"
+				},
+				{
+					"PackageIdentifier" : "beeradmoore.dlss-swapper"
+				},
+				{
+					"PackageIdentifier" : "Discord.Discord"
+				},
+				{
+					"PackageIdentifier" : "Flow-Launcher.Flow-Launcher"
+				},
+				{
+					"PackageIdentifier" : "HearthSim.HearthstoneDeckTracker"
+				},
+				{
+					"PackageIdentifier" : "JesseDuffield.lazygit"
+				},
+				{
+					"PackageIdentifier" : "MultiViewer.MultiViewer"
+				},
+				{
+					"PackageIdentifier" : "JanDeDobbeleer.OhMyPosh"
+				},
+				{
+					"PackageIdentifier" : "Playnite.Playnite"
+				},
+				{
+					"PackageIdentifier" : "Spotify.Spotify"
+				},
+				{
+					"PackageIdentifier" : "WinDirStat.WinDirStat"
+				},
+				{
+					"PackageIdentifier" : "goatcorp.XIVLauncher"
+				},
+				{
+					"PackageIdentifier" : "Zoom.Zoom.EXE"
+				},
+				{
+					"PackageIdentifier" : "Ferdium.Ferdium"
+				},
+				{
+					"PackageIdentifier" : "Obsidian.Obsidian"
+				},
+				{
+					"PackageIdentifier" : "Overwolf.CurseForge"
+				},
+				{
+					"PackageIdentifier" : "Axosoft.GitKraken"
+				},
+				{
+					"PackageIdentifier" : "SlackTechnologies.Slack"
+				},
+				{
+					"PackageIdentifier" : "yitsushi.totp-cli"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VisualStudioCode"
+				},
+				{
+					"PackageIdentifier" : "SpecialK.SpecialK"
+				},
+				{
+					"PackageIdentifier" : "Python.Python.3.12"
+				},
+				{
+					"PackageIdentifier" : "Canonical.Ubuntu.2204"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.Teams"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.AppInstaller"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.UI.Xaml.2.7"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.UI.Xaml.2.8"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCLibs.Desktop.14"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DevHome"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.WindowsTerminal"
+				},
+				{
+					"PackageIdentifier" : "TheBrowserCompany.Arc"
+				}
+			],
+			"SourceDetails" : 
+			{
+				"Argument" : "https://cdn.winget.microsoft.com/cache",
+				"Identifier" : "Microsoft.Winget.Source_8wekyb3d8bbwe",
+				"Name" : "winget",
+				"Type" : "Microsoft.PreIndexed.Package"
+			}
+		},
+		{
+			"Packages" : 
+			[
+				{
+					"PackageIdentifier" : "XP99C9G0KRDZ27"
+				}
+			],
+			"SourceDetails" : 
+			{
+				"Argument" : "https://storeedgefd.dsx.mp.microsoft.com/v9.0",
+				"Identifier" : "StoreEdgeFD",
+				"Name" : "msstore",
+				"Type" : "Microsoft.Rest"
+			}
+		}
+	],
+	"WinGetVersion" : "1.9.1981-preview"
+}

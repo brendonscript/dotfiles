@@ -1,0 +1,131 @@
+{
+    "apps": [
+        {
+            "Name": "7zip",
+            "Version": "24.08",
+            "Info": "",
+            "Source": "main",
+            "Updated": "2024-11-10T01:47:36.704161-05:00"
+        },
+        {
+            "Name": "bat",
+            "Version": "0.24.0",
+            "Info": "",
+            "Source": "main",
+            "Updated": "2024-11-10T09:51:55.501423-05:00"
+        },
+        {
+            "Name": "chezmoi",
+            "Version": "2.54.0",
+            "Info": "",
+            "Source": "main",
+            "Updated": "2024-11-20T14:38:16.0527624-05:00"
+        },
+        {
+            "Name": "fzf",
+            "Version": "0.56.3",
+            "Info": "",
+            "Source": "main",
+            "Updated": "2024-11-20T14:38:17.1996481-05:00"
+        },
+        {
+            "Name": "gitui",
+            "Version": "0.26.3",
+            "Info": "",
+            "Source": "main",
+            "Updated": "2024-11-10T01:47:37.2023741-05:00"
+        },
+        {
+            "Name": "imageglass",
+            "Version": "9.1.8.723",
+            "Info": "",
+            "Source": "extras",
+            "Updated": "2024-11-10T16:14:55.6240904-05:00"
+        },
+        {
+            "Name": "irfanview",
+            "Version": "4.70",
+            "Info": "",
+            "Source": "extras",
+            "Updated": "2024-11-10T16:13:24.7315754-05:00"
+        },
+        {
+            "Name": "Monaspace",
+            "Version": "1.101",
+            "Info": "",
+            "Source": "nerd-fonts",
+            "Updated": "2024-10-28T13:54:12.4911523-04:00"
+        },
+        {
+            "Name": "NerdFontsSymbolsOnly",
+            "Version": "3.3.0",
+            "Info": "",
+            "Source": "nerd-fonts",
+            "Updated": "2024-11-20T14:38:17.8649566-05:00"
+        },
+        {
+            "Name": "ripgrep",
+            "Version": "14.1.1",
+            "Info": "",
+            "Source": "main",
+            "Updated": "2024-11-20T14:38:46.1748276-05:00"
+        },
+        {
+            "Name": "yazi",
+            "Version": "0.3.3",
+            "Info": "",
+            "Source": "main",
+            "Updated": "2024-11-10T09:34:51.2160594-05:00"
+        },
+        {
+            "Name": "ytmdesktop",
+            "Version": "2.0.6",
+            "Info": "",
+            "Source": "extras",
+            "Updated": "2024-11-12T13:19:27.9777709-05:00"
+        },
+        {
+            "Name": "zoxide",
+            "Version": "0.9.6",
+            "Info": "",
+            "Source": "main",
+            "Updated": "2024-11-09T09:13:58.1072536-05:00"
+        }
+    ],
+    "buckets": [
+        {
+            "Name": "main",
+            "Source": "https://github.com/ScoopInstaller/Main.git",
+            "Updated": "2024-11-20T11:30:43-05:00",
+            "Manifests": 1348
+        },
+        {
+            "Name": "extras",
+            "Source": "https://github.com/ScoopInstaller/Extras",
+            "Updated": "2024-11-20T11:32:35-05:00",
+            "Manifests": 2100
+        },
+        {
+            "Name": "versions",
+            "Source": "https://github.com/ScoopInstaller/Versions",
+            "Updated": "2024-11-20T11:43:59-05:00",
+            "Manifests": 470
+        },
+        {
+            "Name": "nerd-fonts",
+            "Source": "https://github.com/matthewjberger/scoop-nerd-fonts",
+            "Updated": "2024-11-20T12:20:10-05:00",
+            "Manifests": 345
+        },
+        {
+            "Name": "CrypticButter",
+            "Source": "https://github.com/CrypticButter/ScoopBucket",
+            "Updated": "2024-05-01T08:51:07-04:00",
+            "Manifests": 1
+        }
+    ],
+    "config": {
+        "scoop_repo": "https://github.com/ScoopInstaller/Scoop",
+        "scoop_branch": "master"
+    }
+}

@@ -1,0 +1,15 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+- create:
+    ~/.ssh:
+      mode: 0700
+- shell:
+    - [git submodule update --init --recursive, Installing submodules]
+- link:
+    ~/.config/wezterm: config/wezterm
+    ~/.config/starship: config/starship
+    ~/Documents/PowerShell: windows/PowerShell
+    ~/.ssh/config: windows/ssh/config
+    ~/.gitconfig: git/.gitconfig

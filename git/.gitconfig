@@ -1,0 +1,6 @@
+# This is Git's per-user configuration file.
+[user]
+name = Brendon McGay
+email = dev@brendonn.com
+[pull]
+	ff = only

@@ -1,0 +1,20 @@
+add_newline = false
+# A minimal left prompt
+format = """$directory$character"""
+# move the rest of the prompt to the right
+right_format = """$all"""
+command_timeout = 15000
+
+[character]
+success_symbol = "[❯](bold green)"
+error_symbol = "[❯](bold red)"
+vicmd_symbol = "[❮](bold green)"
+vimcmd_replace_one_symbol = "[❮](bold purple)"
+vimcmd_replace_symbol = "[❮](bold purple)"
+vimcmd_visual_symbol = "[❮](bold yellow)"
+
+[git_branch]
+format = '[$symbol$branch(:$remote_branch)]($style)'
+
+[docker_context]
+disabled = true

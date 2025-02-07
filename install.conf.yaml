@@ -1,0 +1,86 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+- clean: ["~", "~/.config"]
+- create:
+    - ~/Developer
+    - ~/Developer/Personal
+    - ~/Developer/Work
+    - ~/Developer/Scripts
+    - ~/tmp
+- create:
+    ~/.ssh:
+      mode: 0700
+- shell:
+    - [git submodule update --init --recursive, Installing submodules]
+- link:
+    ~/.config/aerospace:
+      if: "test (uname -s) = 'Darwin'"
+      path: config/aerospace
+    ~/.config/bat: config/bat
+    ~/.config/nushell: config/nushell
+    ~/.config/borders: config/borders
+    ~/.config/btop: config/btop
+    ~/.config/fish:
+      force: true
+      path: config/fish
+    ~/.config/gh: config/gh
+    ~/.config/ghostty: config/ghostty
+    ~/.config/gitui: config/gitui
+    ~/.config/karabiner: config/karabiner
+    ~/.config/kitty: config/kitty
+    ~/.config/lazydocker: config/lazydocker
+    ~/.config/lazygit: config/lazygit
+    ~/.config/marksman: config/marksman
+    ~/.config/mise: config/mise
+    ~/.config/nvim: config/nvim
+    ~/.config/nvim-kickstart: config/nvim-kickstart
+    ~/.config/nvim-vscode: config/nvim-vscode
+    ~/.config/sketchybar: config/sketchybar
+    ~/.config/starship: config/starship
+    ~/.config/television: config/television
+    ~/.config/tmux: config/tmux
+    ~/.config/vifm: config/vifm
+    ~/.config/wezterm: config/wezterm
+    ~/.config/yazi: config/yazi
+    ~/.config/zellij: config/zellij
+    ~/.default-npm-packages: default-npm-packages
+    ~/.gitconfig: git/.gitconfig
+    ~/.hammerspoon:
+      if: "test (uname -s) = 'Darwin'"
+      path: hammerspoon
+    ~/.hushlogin: hushlogin
+    ~/.ssh/config: ssh/config
+    ~/Brewfile:
+      force: true
+      if: "test (uname -s) = 'Darwin'"
+      path: Brewfile
+    ~/Library/Application Support/Sublime Merge:
+      path: Sublime Merge
+    ~/Library/Application Support/Sublime Text:
+      path: Sublime Text
+    ~/bin: bin
+    ~/bin/dump-homebrew:
+      if: "test (uname -s) = 'Darwin'"
+      path: macos/dump-homebrew.sh
+    ~/bin/install-homebrew-packages:
+      if: "test (uname -s) = 'Darwin'"
+      path: macos/install-homebrew-packages.sh
+    ~/bin/toggle-dock:
+      if: "test (uname -s) = 'Darwin'"
+      path: macos/toggle-dock.sh
+    ~/bin/toggle-menubar:
+      if: "test (uname -s) = 'Darwin'"
+      path: macos/toggle-menubar.sh
+    ~/bin/update-dotfiles-homebrew:
+      if: "test (uname -s) = 'Darwin'"
+      path: macos/update-dotfiles-homebrew.sh
+    ~/bin/update-homebrew:
+      if: "test (uname -s) = 'Darwin'"
+      path: macos/update-homebrew.sh
+- shell:
+    - command: ./init-scripts/initial-configure.sh
+      description: Initializing Dotfiles
+      stdin: true
+      stdout: true

@@ -1,0 +1,26 @@
+fileignoreconfig:
+- filename: config/karabiner/karabiner.json
+  checksum: c6be42a8a2f9d33e4b626d84ec3139c8d50d113ebff3e59d2358e12ec4a34ffc
+- filename: config/nushell/env.nu
+  checksum: 17b7b2a23ffc848ca9f33c0242651526cdfba999d87de747a251130c0a30a255
+- filename: config/nvim/lazy-lock.json
+  checksum: d42ec65bdc085e998825f361748c61d916f034ec92fccd13ee21c40d9d0cc6f4
+- filename: config/nvim/lua/plugins/lsp.lua
+  checksum: 1f8f1922ee3ade5d84949760eaab3fb2b3265441aa3084a79f77325a10ae956f
+- filename: config/sketchybar/helpers/app_icons.lua
+  checksum: c99fdba0912d4eb2e12c17461af7e42fcbd84e3c80117a68c61c90f573839666
+- filename: config/sketchybar/helpers/custom_bar_themes
+  checksum: 7067250e30a06b3bd588443cd47d00cc21dfba619325c46477edc3db11523c28
+- filename: config/sketchybar/helpers/event_providers/apple_menu.swift
+  checksum: 4ab7e2d74d48c62c34185d5d7a9bdd21acbd923a763e5031ce07fb476aa8ff90
+- filename: config/sketchybar/helpers/menus/menus.c
+  checksum: 52cffb9112eb422c7298104c72cf95882afd3aa0eeeb0cd5eb203ad87268dea3
+- filename: config/tmux/wip/tmux.conf
+  checksum: b1a384ca64cb6dbb9fde108d5fedd79c3a54f77b2b307aaa636f598849d3151c
+- filename: windows/PowerShell/Completions/Wezterm.ps1
+  checksum: 16ccfd8f6caf552824f54672c88597d48d080cea0ab60f7390ad63cd3f758b39
+- filename: windows/PowerShell/Zoxide.ps1
+  checksum: 6a45ac55f5451745e53021251f447932cf0acbfab71634635fbee28d8d31b81c
+- filename: windows/init.ps1
+  checksum: 0f59b2c9dc24a96691afda2f822d67b28c0e87d582a876d89578f532ac376a8f
+version: "1.0"
