@@ -48,8 +48,8 @@ config = {
   audible_bell = "Disabled",
   cursor_blink_rate = 0,
   default_cursor_style = "SteadyBlock",
-  window_background_opacity = 0.9,
-  text_background_opacity = 0.9,
+  -- window_background_opacity = 0.9,
+  -- text_background_opacity = 0.9,
 
   command_palette_font_size = font_size,
   command_palette_bg_color = theme.background,
