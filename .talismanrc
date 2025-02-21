@@ -4,7 +4,7 @@ fileignoreconfig:
 - filename: config/nushell/env.nu
   checksum: 17b7b2a23ffc848ca9f33c0242651526cdfba999d87de747a251130c0a30a255
 - filename: config/nvim/lazy-lock.json
-  checksum: d42ec65bdc085e998825f361748c61d916f034ec92fccd13ee21c40d9d0cc6f4
+  checksum: 55ddf5209b28e26d891eeffb4354061c603df65433bc637f456a33834e52722c
 - filename: config/nvim/lua/plugins/lsp.lua
   checksum: 1f8f1922ee3ade5d84949760eaab3fb2b3265441aa3084a79f77325a10ae956f
 - filename: config/sketchybar/helpers/app_icons.lua
