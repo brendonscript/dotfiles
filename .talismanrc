@@ -17,6 +17,8 @@ fileignoreconfig:
   checksum: 52cffb9112eb422c7298104c72cf95882afd3aa0eeeb0cd5eb203ad87268dea3
 - filename: config/tmux/wip/tmux.conf
   checksum: b1a384ca64cb6dbb9fde108d5fedd79c3a54f77b2b307aaa636f598849d3151c
+- filename: config/zsh-old/.zshrc
+  checksum: 0f292292be2e79062f0a21f2e6289e78cfbb115a237016cdd6fa446ec7b4f194
 - filename: windows/PowerShell/Completions/Wezterm.ps1
   checksum: 16ccfd8f6caf552824f54672c88597d48d080cea0ab60f7390ad63cd3f758b39
 - filename: windows/PowerShell/Zoxide.ps1

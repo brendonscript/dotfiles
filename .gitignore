@@ -33,3 +33,5 @@ fish/conf.d/hydro.fish
 karabiner/automatic_backups
 config/gh/hosts.yml
 config/nushell/history.txt
+config/fish/conf.d/secrets.fish
+.aider*
