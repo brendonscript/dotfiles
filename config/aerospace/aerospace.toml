@@ -168,7 +168,7 @@ alt-a = 'mode adjust'
 [mode.adjust.binding]
 esc = 'mode main'
 q = 'mode main'
-alt-a = 'mode main'
+alt-a = ['workspace-back-and-forth', 'mode main']
 r = ['reload-config', 'mode main']
 
 backspace = ['close-all-windows-but-current', 'mode main']
@@ -236,9 +236,9 @@ alt-5 = ['summon-workspace 5', 'mode main']
 if.app-id = 'com.apple.Safari'
 run = "move-node-to-workspace B"
 
-[[on-window-detected]]
-if.app-id = 'com.google.Chrome'
-run = "move-node-to-workspace B"
+# [[on-window-detected]]
+# if.app-id = 'com.google.Chrome'
+# run = "move-node-to-workspace B"
 
 [[on-window-detected]]
 if.app-id = 'org.mozilla.firefox'

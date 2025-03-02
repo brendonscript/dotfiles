@@ -16,5 +16,8 @@ vimcmd_visual_symbol = "[❮](bold yellow)"
 [git_branch]
 format = '[$symbol$branch(:$remote_branch)]($style)'
 
+[git_status]
+disabled = true
+
 [docker_context]
 disabled = true
