@@ -45,7 +45,7 @@ abbr -a wmt "aerospace enable toggle"
 
 abbr -a talisman-interactive "talisman -i -g pre-commit"
 
-
+abbr -a restart-sketchy-bar "brew services restart sketchybar"
 
 # Config
 abbr -a nvc "cd ~/.config/nvim && nvim"
@@ -81,7 +81,6 @@ abbr -a npis "npm i && npm start"
 abbr -a pni "pnpm i"
 abbr -a pns "pnpm start"
 abbr -a pnis "pnpm i && pnpm start"
-
 
 if type -q ssh-agent.exe
     abbr -a ssh-agent "ssh-agent.exe"
