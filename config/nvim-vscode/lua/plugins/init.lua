@@ -38,12 +38,10 @@ return {
   {
     'echasnovski/mini.pairs',
     version = '*',
-    enabled = true,
-    vscode = true,
+    opts = {},
   },
   {
     'folke/flash.nvim',
-    vscode = true,
     opts = {
       search = {
         -- search/jump in all windows
@@ -111,7 +109,6 @@ return {
   {
     'vscode-neovim/vscode-multi-cursor.nvim',
     event = 'VeryLazy',
-    vscode = true,
     config = function(_, opts)
       local cursors = require('vscode-multi-cursor')
       cursors.setup(opts)

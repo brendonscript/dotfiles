@@ -3,6 +3,8 @@ fileignoreconfig:
   checksum: c6be42a8a2f9d33e4b626d84ec3139c8d50d113ebff3e59d2358e12ec4a34ffc
 - filename: config/nushell/env.nu
   checksum: 17b7b2a23ffc848ca9f33c0242651526cdfba999d87de747a251130c0a30a255
+- filename: config/nvim-vscode/lazy-lock.json
+  checksum: 3e1df83c36805d2f22c7b04d7d7518a90ffc38ae1926f79b1aeca1227fc982d2
 - filename: config/nvim/lazy-lock.json
   checksum: fd75bc7b32a97bf9a0840273b78bc31d90599e49bc446247c8b2b270b9d9a288
 - filename: config/nvim/lua/plugins/lsp.lua

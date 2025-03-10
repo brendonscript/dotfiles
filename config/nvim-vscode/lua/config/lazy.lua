@@ -7,11 +7,11 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(vim.env.LAZY or lazypath)
 
-vim.g.lazysrc = 'LazyVim/LazyVim'
+-- vim.g.lazysrc = 'LazyVim/LazyVim'
 
 require('lazy').setup({
   spec = {
-    { vim.g.lazysrc, import = 'lazyvim.plugins' },
+    -- { vim.g.lazysrc, import = 'lazyvim.plugins' },
     { import = 'plugins' },
   },
   defaults = {
