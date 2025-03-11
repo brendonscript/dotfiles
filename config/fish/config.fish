@@ -92,3 +92,9 @@ end
 #         commandline -f repaint
 #     end
 # end
+
+# Added by Windsurf
+fish_add_path /Users/brendon/.codeium/windsurf/bin
+
+# Added by Windsurf - Next
+fish_add_path /Users/brendon/.codeium/windsurf/bin

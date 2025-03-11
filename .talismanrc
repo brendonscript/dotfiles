@@ -6,7 +6,7 @@ fileignoreconfig:
 - filename: config/nvim-vscode/lazy-lock.json
   checksum: 3e1df83c36805d2f22c7b04d7d7518a90ffc38ae1926f79b1aeca1227fc982d2
 - filename: config/nvim/lazy-lock.json
-  checksum: fd75bc7b32a97bf9a0840273b78bc31d90599e49bc446247c8b2b270b9d9a288
+  checksum: d8a44a4ea9d04c4c9f9664f93049a97cf3a6ba3f53853436c37373224c40c26f
 - filename: config/nvim/lua/plugins/lsp.lua
   checksum: 1f8f1922ee3ade5d84949760eaab3fb2b3265441aa3084a79f77325a10ae956f
 - filename: config/sketchybar/helpers/app_icons.lua
