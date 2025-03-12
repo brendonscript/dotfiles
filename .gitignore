@@ -28,6 +28,7 @@ config/fish/completions/**
 !config/fish/completions/custom/**
 config/fish/completions
 config/fish/functions
+config/fish/conf.d/fish-ssh-agent.fish
 bin/toggle-dock
 bin/toggle-menubar
 fish/conf.d/_tide_init.fish
