@@ -5,27 +5,29 @@ gh/hosts.yml
 Sublime Text/Local/Auto Save Session.sublime_session
 Sublime Text/Local/Session.sublime_session
 .initialized-dotfiles
-fish/themes
-fish/conf.d/git.fish
-fish/conf.d/fzf.fish
+config/fish/themes
+config/fish/conf.d/git.fish
+config/fish/conf.d/fzf.fish
 
 # Ignore the functions folder and all its contents
-fish/functions/**
+config/fish/functions/**
 
 # Do not ignore the custom folder inside functions
-!fish/functions/custom/
+!config/fish/functions/custom/
 
 # Ensure all files within the custom folder are tracked
-!fish/functions/custom/**
+!config/fish/functions/custom/**
 
 # Ignore the completions folder and all its contents
-fish/completions/**
+config/fish/completions/**
 
 # Do not ignore the custom folder inside completions
-!fish/completions/custom/
+!config/fish/completions/custom/
 
 # Ensure all files within the custom folder are tracked
-!fish/completions/custom/**
+!config/fish/completions/custom/**
+config/fish/completions
+config/fish/functions
 bin/toggle-dock
 bin/toggle-menubar
 fish/conf.d/_tide_init.fish
