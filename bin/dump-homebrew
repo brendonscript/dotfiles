@@ -1,1 +1,4 @@
-/Users/brendon/.dotfiles/macos/dump-homebrew.sh
+#!/usr/bin/env bash
+
+echo "Dumping Homebrew packages..."
+brew bundle dump --force --global

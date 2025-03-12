@@ -2,13 +2,14 @@
     link:
       create: true
       relink: true
-- clean: ["~", "~/.config"]
+- clean: ["~", "~/.config", "~/bin"]
 - create:
     - ~/Developer
     - ~/Developer/Personal
     - ~/Developer/Work
     - ~/Developer/Scripts
     - ~/tmp
+    - ~/bin
 - create:
     ~/.ssh:
       mode: 0700
@@ -60,25 +61,9 @@
       path: Sublime Merge
     ~/Library/Application Support/Sublime Text:
       path: Sublime Text
-    ~/bin: bin
-    ~/bin/dump-homebrew:
-      if: "test (uname -s) = 'Darwin'"
-      path: macos/dump-homebrew.sh
-    ~/bin/install-homebrew-packages:
-      if: "test (uname -s) = 'Darwin'"
-      path: macos/install-homebrew-packages.sh
-    ~/bin/toggle-dock:
-      if: "test (uname -s) = 'Darwin'"
-      path: macos/toggle-dock.sh
-    ~/bin/toggle-menubar:
-      if: "test (uname -s) = 'Darwin'"
-      path: macos/toggle-menubar.sh
-    ~/bin/update-dotfiles-homebrew:
-      if: "test (uname -s) = 'Darwin'"
-      path: macos/update-dotfiles-homebrew.sh
-    ~/bin/update-homebrew:
-      if: "test (uname -s) = 'Darwin'"
-      path: macos/update-homebrew.sh
+    ~/bin:
+      path: bin
+      force: true
 
 - shell:
     - command: ./init-scripts/initial-configure.sh
