@@ -79,8 +79,13 @@
     ~/bin/update-homebrew:
       if: "test (uname -s) = 'Darwin'"
       path: macos/update-homebrew.sh
+
 - shell:
     - command: ./init-scripts/initial-configure.sh
       description: Initializing Dotfiles
+      stdin: true
+      stdout: true
+    - command: ./init-scripts/setup-conventional-commits.sh
+      description: Setting up conventional commits
       stdin: true
       stdout: true

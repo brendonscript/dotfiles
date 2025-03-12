@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# Run commitizen to format commit messages
+exec </dev/tty && npx cz --hook || true

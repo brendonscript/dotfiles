@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# Hook to validate pre-commit requirements
+# You can add linting or other pre-commit checks here
+
+# Comment this out if you don't need to run tests
+# npm test

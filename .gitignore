@@ -35,3 +35,11 @@ config/gh/hosts.yml
 config/nushell/history.txt
 config/fish/conf.d/secrets.fish
 .aider*
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+.conventional-commits-initialized
