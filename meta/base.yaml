@@ -1,0 +1,17 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+
+- clean: ["~", "~/.config"]
+
+- create:
+    - ~/Developer
+    - ~/Developer/Personal
+    - ~/Developer/Work
+    - ~/Developer/Scripts
+    - ~/tmp
+    - ~/bin
+- create:
+    ~/.ssh:
+      mode: 0700
