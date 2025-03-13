@@ -1,0 +1,15 @@
+- link:
+    ~/.config/bat: config/bat
+    ~/.config/nushell: config/nushell
+    ~/.config/btop: config/btop
+    ~/.config/fish:
+      force: true
+      path: config/fish
+    ~/.config/kitty: config/kitty
+    ~/.config/lazydocker: config/lazydocker
+    ~/.config/mise: config/mise
+    ~/.config/television: config/television
+    ~/.config/tmux: config/tmux
+    ~/.config/vifm: config/vifm
+    ~/.config/yazi: config/yazi
+    ~/.config/zellij: config/zellij

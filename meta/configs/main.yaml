@@ -1,28 +1,14 @@
 - link:
-    ~/.config/bat: config/bat
-    ~/.config/nushell: config/nushell
-    ~/.config/btop: config/btop
-    ~/.config/fish:
-      force: true
-      path: config/fish
     ~/.config/gh: config/gh
     ~/.config/ghostty: config/ghostty
     ~/.config/gitui: config/gitui
-    ~/.config/kitty: config/kitty
-    ~/.config/lazydocker: config/lazydocker
     ~/.config/lazygit: config/lazygit
     ~/.config/marksman: config/marksman
-    ~/.config/mise: config/mise
     ~/.config/nvim: config/nvim
     ~/.config/nvim-kickstart: config/nvim-kickstart
     ~/.config/nvim-vscode: config/nvim-vscode
     ~/.config/starship: config/starship
-    ~/.config/television: config/television
-    ~/.config/tmux: config/tmux
-    ~/.config/vifm: config/vifm
     ~/.config/wezterm: config/wezterm
-    ~/.config/yazi: config/yazi
-    ~/.config/zellij: config/zellij
     ~/.default-npm-packages: default-npm-packages
     ~/.gitconfig: git/.gitconfig
     ~/.hushlogin: hushlogin
@@ -30,13 +16,3 @@
     ~/bin:
       path: bin
       force: true
-
-- shell:
-    - command: ./meta/init-scripts/initial-configure.sh
-      description: Initializing Dotfiles
-      stdin: true
-      stdout: true
-    - command: ./meta/init-scripts/setup-conventional-commits.sh
-      description: Setting up conventional commits
-      stdin: true
-      stdout: true

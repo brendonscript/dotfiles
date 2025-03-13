@@ -1,0 +1,9 @@
+- shell:
+    - command: ./meta/init-scripts/initial-configure.sh
+      description: Initializing Dotfiles
+      stdin: true
+      stdout: true
+    - command: ./meta/init-scripts/setup-conventional-commits.sh
+      description: Setting up conventional commits
+      stdin: true
+      stdout: true
