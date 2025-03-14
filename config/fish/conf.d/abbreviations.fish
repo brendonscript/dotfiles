@@ -42,6 +42,7 @@ abbr -a !! --position anywhere --function last_history_item
 abbr -a b "cd -"
 abbr -a h --position anywhere "$HOME/.dotfiles"
 abbr -a wmt "aerospace enable toggle"
+abbr -a gha act3
 
 abbr -a talisman-interactive "talisman -i -g pre-commit"
 
