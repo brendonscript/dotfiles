@@ -57,3 +57,5 @@ npm run commit
 ### Install Hooks
 
 `pre-commit install`
+
+Setup pre-commit for husky
