@@ -11,6 +11,9 @@ fileignoreconfig:
 - filename: config/nvim-vscode/lazy-lock.json
   checksum: ""
   ignore_detectors: ["filecontent"]
+- filename: config/karabiner/karabiner.json
+  checksum: ""
+  ignore_detectors: ["filecontent"]
 - filename: config/nvim/lua/plugins/lsp.lua
   checksum: 1f8f1922ee3ade5d84949760eaab3fb2b3265441aa3084a79f77325a10ae956f
 - filename: config/sketchybar/helpers/app_icons.lua
