@@ -10,6 +10,5 @@
     ~/.config/mise: config/mise
     ~/.config/television: config/television
     ~/.config/tmux: config/tmux
-    ~/.config/vifm: config/vifm
     ~/.config/yazi: config/yazi
     ~/.config/zellij: config/zellij

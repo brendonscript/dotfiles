@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 DOTFILES_DIR=$HOME/.dotfiles
-INIT_SCRIPTS_DIR=$DOTFILES_DIR/init-scripts
-MACOS_SCRIPTS_DIR=$DOTFILES_DIR/macos
+INIT_SCRIPTS_DIR=$DOTFILES_DIR/meta/init-scripts
+# MACOS_SCRIPTS_DIR=$DOTFILES_DIR/macos
 DOTFILES_INIT_FILE="$DOTFILES_DIR"/.initialized-dotfiles
 
 green_echo() {
@@ -15,17 +15,18 @@ if [[ -e $DOTFILES_INIT_FILE ]]; then
   exit 0
 else
   # Install Homebrew
-  "$MACOS_SCRIPTS_DIR"/install-homebrew.sh
+  # "$MACOS_SCRIPTS_DIR"/install-homebrew.sh
 
   # Set Fish shell as default
-  "$INIT_SCRIPTS_DIR"/configure-fish-shell.sh
+  # "$INIT_SCRIPTS_DIR"/configure-fish-shell.sh
 
   # Configure SSH keys
   "$INIT_SCRIPTS_DIR"/configure-ssh.sh
+  "$INIT_SCRIPTS_DIR/setup-conventional-commits.sh"
 
   # Setup Mise
-  echo "Installing Mise..."
-  mise install
+  # echo "Installing Mise..."
+  # mise install
 
   touch "$DOTFILES_INIT_FILE"
 
