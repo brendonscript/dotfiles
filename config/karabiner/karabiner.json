@@ -54,7 +54,7 @@
             ]
           },
           {
-            "description": "Tab → LOpt",
+            "description": "Tab → Meh",
             "manipulators": [
               {
                 "type": "basic",
@@ -63,32 +63,16 @@
                 },
                 "to": [
                   {
-                    "key_code": "left_option"
-                  }
-                ],
-                "to_if_alone": [
-                  {
-                    "key_code": "tab"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "description": "ROpt → Meh",
-            "manipulators": [
-              {
-                "type": "basic",
-                "from": {
-                  "key_code": "right_option"
-                },
-                "to": [
-                  {
                     "key_code": "left_option",
                     "modifiers": [
                       "control",
                       "shift"
                     ]
+                  }
+                ],
+                "to_if_alone": [
+                  {
+                    "key_code": "tab"
                   }
                 ]
               }
@@ -168,21 +152,32 @@
             ]
           },
           {
-            "description": "R_Command + L_Command → L_Opt",
+            "description": "R_Command → L_Opt",
             "manipulators": [
               {
                 "type": "basic",
                 "from": {
-                  "key_code": "right_command",
-                  "modifiers": {
-                    "mandatory": [
-                      "left_command"
-                    ]
-                  }
+                  "key_code": "right_command"
                 },
                 "to": [
                   {
                     "key_code": "left_option"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "description": "R_Opt → R_Command",
+            "manipulators": [
+              {
+                "type": "basic",
+                "from": {
+                  "key_code": "right_option"
+                },
+                "to": [
+                  {
+                    "key_code": "right_command"
                   }
                 ]
               }

@@ -5,8 +5,5 @@ export const hyperMehRules = () => [
     map('caps_lock').toHyper().toIfAlone('escape'),
     map('escape').toHyper().toIfAlone('escape'),
   ]),
-  rule('Tab → LOpt').manipulators([
-    map('tab').to('left_option').toIfAlone('tab'),
-  ]),
-  rule('ROpt → Meh').manipulators([map('right_option').toMeh()]),
+  rule('Tab → Meh').manipulators([map('tab').toMeh().toIfAlone('tab')]),
 ]
