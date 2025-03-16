@@ -16,3 +16,5 @@
       path: apps/Sublime Merge
     ~/Library/Application Support/Sublime Text:
       path: apps/Sublime Text
+    ~/Library/Application Support/Cursor/User/keybindings.json: apps/Cursor/keybindings.json
+    ~/Library/Application Support/Cursor/User/settings.json: apps/Cursor/settings.json
