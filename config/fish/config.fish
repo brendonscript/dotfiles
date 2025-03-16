@@ -35,7 +35,6 @@ set -x VI_MODE_SET_CURSOR true
 set -x PRETTIERD_LOCAL_PRETTIER_ONLY 1
 # set -x BOB_CONFIG "$HOME/.config/bob/config.json"
 set -x COREPACK_ENABLE_AUTO_PIN 0
-set -x SSH_AUTH_SOCK ~/.1password/agent.sock
 set -x STARSHIP_CONFIG $XDG_CONFIG_HOME/starship/starship.toml
 set -g -x TALISMAN_INTERACTIVE true
 set -g -x PIP_REQUIRE_VIRTUALENV true
