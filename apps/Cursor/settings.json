@@ -1649,6 +1649,7 @@
   "cursor.cpp.enablePartialAccepts": true,
   "cursor.composer.collapsePaneInputBoxPills": true,
   "update.releaseTrack": "prerelease",
-  "workbench.editor.showTabs": "single"
+  "workbench.editor.showTabs": "single",
+  "cursor.diffs.useCharacterLevelDiffs": true
   // "workbench.editor.limit.value": 3
 }
