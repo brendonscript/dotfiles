@@ -1,0 +1,6 @@
+# see https://github.com/sigoden/aichat/blob/main/config.example.yaml
+
+model: openai:o3-mini
+clients:
+  - type: openai
+    # api_key: xxx

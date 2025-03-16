@@ -1,4 +1,3 @@
-tap "deskflow/tap"
 tap "dhth/tap"
 tap "fcanas/tap"
 tap "felixkratz/formulae"
@@ -13,6 +12,7 @@ tap "osx-cross/avr"
 tap "qmk/qmk"
 tap "sachaos/todoist"
 tap "vladdoster/formulae"
+brew "aichat"
 brew "aider"
 brew "bat"
 brew "bpytop"
@@ -138,10 +138,11 @@ mas "Keynote", id: 409183694
 mas "Mapper", id: 1589391989
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
-mas "rcmd", id: 1596283165
 mas "Save to Raindrop.io", id: 1549370672
+mas "Sofa", id: 1276554886
 mas "SponsorBlock", id: 1573461917
 mas "Strongbox", id: 897283731
 mas "Vinegar", id: 1591303229
 mas "Wipr", id: 1662217862
+mas "Xcode", id: 497799835
 mas "xSearch", id: 1579902068
