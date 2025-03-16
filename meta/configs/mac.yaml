@@ -1,13 +1,13 @@
 - link:
-    ~/.config/aerospace: config/aerospace
-    ~/.config/borders: config/borders
-    ~/.config/karabiner: config/karabiner
-    ~/.config/sketchybar: config/sketchybar
-    ~/.hammerspoon: hammerspoon
+    ~/.config/aerospace: macos/aerospace
+    ~/.config/borders: macos/borders
+    ~/.config/karabiner: macos/karabiner
+    ~/.config/sketchybar: macos/sketchybar
+    ~/.hammerspoon: macos/hammerspoon
     ~/Brewfile:
       force: true
-      path: Brewfile
+      path: macos/Brewfile
     ~/Library/Application Support/Sublime Merge:
-      path: Sublime Merge
+      path: apps/Sublime Merge
     ~/Library/Application Support/Sublime Text:
-      path: Sublime Text
+      path: apps/Sublime Text
