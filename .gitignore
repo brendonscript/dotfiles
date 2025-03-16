@@ -1,42 +1,12 @@
 .DS_STORE
 .DS_Store
-fish_variables
 gh/hosts.yml
 Sublime Text/Local/Auto Save Session.sublime_session
 Sublime Text/Local/Session.sublime_session
 .initialized-dotfiles
-config/fish/themes
-config/fish/conf.d/git.fish
-config/fish/conf.d/fzf.fish
-
-# Ignore the functions folder and all its contents
-config/fish/functions/**
-
-# Do not ignore the custom folder inside functions
-!config/fish/functions/custom/
-
-# Ensure all files within the custom folder are tracked
-!config/fish/functions/custom/**
-
-# Ignore the completions folder and all its contents
-config/fish/completions/**
-
-# Do not ignore the custom folder inside completions
-!config/fish/completions/custom/
-
-# Ensure all files within the custom folder are tracked
-!config/fish/completions/custom/**
-config/fish/completions
-config/fish/functions
-config/fish/conf.d/fish-ssh-agent.fish
-bin/toggle-dock
-bin/toggle-menubar
-fish/conf.d/_tide_init.fish
-fish/conf.d/hydro.fish
 karabiner/automatic_backups
 config/gh/hosts.yml
 config/nushell/history.txt
-config/fish/conf.d/secrets.fish
 .aider*
 
 # Node.js

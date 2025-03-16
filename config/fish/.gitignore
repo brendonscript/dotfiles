@@ -1,0 +1,16 @@
+# Ignore everything in these directories
+functions/*
+conf.d/*
+themes/*
+completions/*
+fish_variables
+
+# Except the custom subdirectories and everything inside them
+!functions/custom/
+!functions/custom/**
+!conf.d/custom/
+!conf.d/custom/**
+!themes/custom/
+!themes/custom/**
+!completions/custom/
+!completions/custom/**
