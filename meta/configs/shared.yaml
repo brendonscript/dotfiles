@@ -10,7 +10,7 @@
     ~/.config/starship: config/starship
     ~/.config/wezterm: config/wezterm
     ~/.default-npm-packages: default-npm-packages
-    ~/.gitconfig: git/.gitconfig
+    ~/.gitconfig: git/gitconfig
     ~/.hushlogin: hushlogin
     ~/.ssh/config: ssh/config
     ~/bin:
