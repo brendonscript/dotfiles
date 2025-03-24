@@ -16,3 +16,4 @@
     ~/.config/yazi: config/yazi
     ~/.config/zellij: config/zellij
     ~/.config/aichat: config/aichat
+    ~/.ssh/config: ssh/config

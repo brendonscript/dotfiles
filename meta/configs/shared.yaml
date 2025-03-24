@@ -12,7 +12,6 @@
     ~/.default-npm-packages: default-npm-packages
     ~/.gitconfig: git/gitconfig
     ~/.hushlogin: hushlogin
-    ~/.ssh/config: ssh/config
     ~/bin:
       path: bin
       force: true
