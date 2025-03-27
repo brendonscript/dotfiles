@@ -70,16 +70,27 @@ theme = "TwoDark"
 # Keybindings
 # ----------------------------------------------------------------------------
 #
-# Channel mode
-# ------------------------
-[keybindings.Channel]
+
+
+# Remote control mode
+# -------------------------------
+[keybindings]
 # Quit the application
-quit = ["esc", "ctrl-c"]
+quit = "esc"
 # Scrolling through entries
 select_next_entry = ["down", "ctrl-n", "ctrl-j"]
 select_prev_entry = ["up", "ctrl-p", "ctrl-k"]
 select_next_page = "pagedown"
 select_prev_page = "pageup"
+# Select an entry
+select_entry = "enter"
+# Toggle the remote control mode
+toggle_remote_control = "ctrl-r"
+# Toggle the help bar
+toggle_help = "ctrl-g"
+# Toggle the preview panel
+toggle_preview = "ctrl-o"
+
 # Scrolling the preview pane
 scroll_preview_half_page_down = "ctrl-d"
 scroll_preview_half_page_up = "ctrl-u"
@@ -91,55 +102,8 @@ toggle_selection_up = "backtab"
 confirm_selection = "enter"
 # Copy the selected entry to the clipboard
 copy_entry_to_clipboard = "ctrl-y"
-# Toggle the remote control mode
-toggle_remote_control = "ctrl-r"
 # Toggle the send to channel mode
 toggle_send_to_channel = "ctrl-s"
-# Toggle the help bar
-toggle_help = "ctrl-g"
-# Toggle the preview panel
-toggle_preview = "ctrl-o"
-
-
-# Remote control mode
-# -------------------------------
-[keybindings.RemoteControl]
-# Quit the application
-quit = "esc"
-# Scrolling through entries
-select_next_entry = ["down", "ctrl-n", "ctrl-j"]
-select_prev_entry = ["up", "ctrl-p", "ctrl-k"]
-select_next_page = "pagedown"
-select_prev_page = "pageup"
-# Select an entry
-select_entry = "enter"
-# Toggle the remote control mode
-toggle_remote_control = "ctrl-r"
-# Toggle the help bar
-toggle_help = "ctrl-g"
-# Toggle the preview panel
-toggle_preview = "ctrl-o"
-
-
-# Send to channel mode
-# --------------------------------
-[keybindings.SendToChannel]
-# Quit the application
-quit = "esc"
-# Scrolling through entries
-select_next_entry = ["down", "ctrl-n", "ctrl-j"]
-select_prev_entry = ["up", "ctrl-p", "ctrl-k"]
-select_next_page = "pagedown"
-select_prev_page = "pageup"
-# Select an entry
-select_entry = "enter"
-# Toggle the send to channel mode
-toggle_send_to_channel = "ctrl-s"
-# Toggle the help bar
-toggle_help = "ctrl-g"
-# Toggle the preview panel
-toggle_preview = "ctrl-o"
-
 
 # Shell integration
 # ----------------------------------------------------------------------------
