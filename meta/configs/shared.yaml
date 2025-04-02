@@ -1,17 +1,11 @@
 - link:
     ~/.config/gh: config/gh
     ~/.config/ghostty: config/ghostty
-    ~/.config/gitui: config/gitui
     ~/.config/lazygit: config/lazygit
     ~/.config/marksman: config/marksman
     ~/.config/nvim: config/nvim
-    ~/.config/nvim-kickstart: config/nvim-kickstart
     ~/.config/nvim-vscode: config/nvim-vscode
     ~/.config/starship: config/starship
-    ~/.config/wezterm: config/wezterm
     ~/.default-npm-packages: default-npm-packages
     ~/.gitconfig: git/gitconfig
     ~/.hushlogin: hushlogin
-    ~/bin:
-      path: bin
-      force: true

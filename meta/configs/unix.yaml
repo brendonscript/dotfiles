@@ -17,3 +17,4 @@
     ~/.config/zellij: config/zellij
     ~/.config/aichat: config/aichat
     ~/.ssh/config: ssh/config
+    ~/bin: bin
