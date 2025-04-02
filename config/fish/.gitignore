@@ -1,6 +1,6 @@
 # Ignore everything in these directories
 functions/*
-conf.d/*
+# conf.d/*
 themes/*
 completions/*
 fish_variables
