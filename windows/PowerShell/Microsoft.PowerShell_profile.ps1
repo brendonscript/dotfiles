@@ -21,6 +21,8 @@ Remove-Item Alias:"pwd"
 Remove-Item Alias:"rm"
 Remove-Item Alias:"rmdir"
 
+New-Alias which get-command
+
 # Set-PSReadLineOption -EditMode vi
 # Set-PSReadLineKeyHandler -Key 'j,k' -ViMode Insert -Function ViCommandMode
 Set-PSReadLineKeyHandler -Chord "Ctrl+f" -Function AcceptSuggestion

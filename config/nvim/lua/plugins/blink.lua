@@ -1,12 +1,6 @@
 return {
   {
     'saghen/blink.cmp',
-    opts = function(_, opts)
-      opts.sources.providers.copilot.score_offset = -1
-    end,
-  },
-  {
-    'saghen/blink.cmp',
     opts = {
       keymap = {
         ['<Tab>'] = { 'select_next', 'snippet_forward', 'fallback' },
