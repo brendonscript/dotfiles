@@ -91,5 +91,3 @@ end
 #         commandline -f repaint
 #     end
 # end
-
-fish_add_path /Users/brendon/.codeium/windsurf/bin

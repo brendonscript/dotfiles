@@ -1,7 +1,7 @@
 # This is Git's per-user configuration file.
 [user]
   name = Brendon McGay
-  email = dev@brendonn.com
+  email = brendon.mcgay@gmail.com
 
 [column]
   ui = auto
@@ -44,10 +44,10 @@
 # a matter of taste (uncomment if you dare)
 
 [core]
-        # fsmonitor = true
-        # untrackedCache = true
-[merge]
+        fsmonitor = true
+        untrackedCache = true
+# [merge]
         # (just 'diff3' if git version < 2.3)
-  conflictstyle = zdiff3 
+  # conflictstyle = zdiff3 
 [pull]
   rebase = true

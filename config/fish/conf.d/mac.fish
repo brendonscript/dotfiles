@@ -18,12 +18,68 @@ if test (uname) = Darwin
         end
     end
 
-    fish_add_path /opt/homebrew/opt/llvm/bin
-    fish_add_path /Applications/Emacs.app/Contents/MacOS/bin
-    fish_add_path /opt/homebrew/sbin
-    fish_add_path -m /opt/homebrew/bin
+    # Homebrew environment configuration
 
-    set -gx PKG_CONFIG_PATH /opt/homebrew/Cellar/zlib/1.2.11/lib/pkgconfig:/opt/homebrew/lib/pkgconfig
+    # Add "gnubin" directories for coreutils and GNU sed
+    fish_add_path /opt/homebrew/opt/coreutils/libexec/gnubin
+    fish_add_path /opt/homebrew/opt/gnu-sed/libexec/gnubin
+
+    # Add PATH entries for keg-only packages
+    fish_add_path /opt/homebrew/opt/expat/bin
+    fish_add_path /opt/homebrew/opt/libiconv/bin
+    fish_add_path /opt/homebrew/opt/libxml2/bin
+
+    # Set environment variables for expat
+    set -gx LDFLAGS $LDFLAGS -L/opt/homebrew/opt/expat/lib
+    set -gx CPPFLAGS $CPPFLAGS -I/opt/homebrew/opt/expat/include
+    set -gx PKG_CONFIG_PATH $PKG_CONFIG_PATH /opt/homebrew/opt/expat/lib/pkgconfig
+
+    # Set environment variables for libffi
+    set -gx LDFLAGS $LDFLAGS -L/opt/homebrew/opt/libffi/lib
+    set -gx CPPFLAGS $CPPFLAGS -I/opt/homebrew/opt/libffi/include
+    set -gx PKG_CONFIG_PATH $PKG_CONFIG_PATH /opt/homebrew/opt/libffi/lib/pkgconfig
+
+    # Set environment variables for libiconv
+    set -gx LDFLAGS $LDFLAGS -L/opt/homebrew/opt/libiconv/lib
+    set -gx CPPFLAGS $CPPFLAGS -I/opt/homebrew/opt/libiconv/include
+
+    # Set environment variables for libxml2
+    set -gx LDFLAGS $LDFLAGS -L/opt/homebrew/opt/libxml2/lib
+    set -gx CPPFLAGS $CPPFLAGS -I/opt/homebrew/opt/libxml2/include
+    set -gx PKG_CONFIG_PATH $PKG_CONFIG_PATH /opt/homebrew/opt/libxml2/lib/pkgconfig
+
+    # Set environment variables for zlib
+    set -gx LDFLAGS $LDFLAGS -L/opt/homebrew/opt/zlib/lib
+    set -gx CPPFLAGS $CPPFLAGS -I/opt/homebrew/opt/zlib/include
+    set -gx PKG_CONFIG_PATH $PKG_CONFIG_PATH /opt/homebrew/opt/zlib/lib/pkgconfig
+
+    #   fish_add_path /opt/homebrew/opt/llvm/bin
+    #   # fish_add_path /Applications/Emacs.app/Contents/MacOS/bin
+    #   # fish_add_path /opt/homebrew/sbin
+    #   fish_add_path -m /opt/homebrew/bin
+    #   fish_add_path /Users/brendon/.codeium/windsurf/bin
+    #   fish_add_path /opt/homebrew/opt/coreutils/libexec/gnubin
+    #   fish_add_path /opt/homebrew/opt/expat/bin
+    #   fish_add_path /opt/homebrew/opt/gnu-sed/libexec/gnubin
+    #   fish_add_path /opt/homebrew/opt/libiconv/bin
+    #   fish_add_path /opt/homebrew/opt/libxml2/bin
+    # fish_add_path /opt/homebrew/opt/expat/bin
+    #   # set -gx LDFLAGS -L/opt/homebrew/opt/libxml2/lib
+    #   # set -gx CPPFLAGS -I/opt/homebrew/opt/libxml2/include
+    #   # set -gx LDFLAGS -L/opt/homebrew/opt/libffi/lib
+    #   # set -gx CPPFLAGS -I/opt/homebrew/opt/libffi/include
+    #   # set -gx LDFLAGS -L/opt/homebrew/opt/expat/lib
+    #   # set -gx CPPFLAGS -I/opt/homebrew/opt/expat/include
+    #   # set -gx LDFLAGS -L/opt/homebrew/opt/libiconv/lib
+    #   # set -gx CPPFLAGS -I/opt/homebrew/opt/libiconv/include
+    #   # set -gx PKG_CONFIG_PATH /opt/homebrew/opt/zlib/lib/pkgconfig
+
+    if test -d "/Applications/Emacs.app/Contents/MacOS/bin"
+        fish_add_path /Applications/Emacs.app/Contents/MacOS/bin
+        # alias emacs="emacs -nw"
+    end
+
+    # set -gx PKG_CONFIG_PATH /opt/homebrew/Cellar/zlib/1.2.11/lib/pkgconfig:/opt/homebrew/lib/pkgconfig
     set -gx HOMEBREW_NO_ENV_HINTS 1
     set -gx HOMEBREW_BUNDLE_DUMP_NO_VSCODE 1
     set -gx HOMEBREW_BUNDLE_MAS_SKIP "Xcode Keynote Numbers 'Okta Verify' iMovie GarageBand Mapper Pages"
