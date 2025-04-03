@@ -38,6 +38,7 @@ set -x COREPACK_ENABLE_AUTO_PIN 0
 set -x STARSHIP_CONFIG $XDG_CONFIG_HOME/starship/starship.toml
 set -g -x TALISMAN_INTERACTIVE true
 set -g -x PIP_REQUIRE_VIRTUALENV true
+set -gx SPACEMACSDIR $XDG_CONFIG_HOME/spacemacs
 
 # set -g fish_vi_force_cursor 1
 set fish_cursor_default block

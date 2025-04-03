@@ -18,3 +18,4 @@ package-lock.json
 .conventional-commits-initialized
 config/aichat/.env
 apps/Sublime Text/Local/Session.sublime_session
+config/spacemacs/.spacemacs.env

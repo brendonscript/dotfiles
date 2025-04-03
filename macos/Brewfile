@@ -40,6 +40,7 @@ brew "fish"
 brew "fzf"
 brew "gh"
 brew "git-crypt"
+brew "gitu"
 brew "gitui"
 brew "gnu-sed"
 brew "imagemagick"
@@ -156,23 +157,3 @@ cask "visual-studio-code"
 cask "webull"
 cask "wezterm@nightly"
 cask "windsurf"
-mas "1Password for Safari", id: 1569813296
-mas "Baking Soda", id: 1601151613
-mas "Dark Reader for Safari", id: 1438243180
-mas "GarageBand", id: 682658836
-mas "Hush", id: 1544743900
-mas "iMovie", id: 408981434
-mas "Instapaper", id: 288545208
-mas "Keymapp", id: 6472865291
-mas "Keynote", id: 409183694
-mas "Mapper", id: 1589391989
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
-mas "Save to Raindrop.io", id: 1549370672
-mas "Sofa", id: 1276554886
-mas "SponsorBlock", id: 1573461917
-mas "Strongbox", id: 897283731
-mas "Vinegar", id: 1591303229
-mas "Wipr", id: 1662217862
-mas "Xcode", id: 497799835
-mas "xSearch", id: 1579902068
